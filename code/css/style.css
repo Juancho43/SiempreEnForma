@@ -1,0 +1,73 @@
+:root{
+  --color1:#FDF6F0;
+  --color2:#548CA8;
+  --color3:#F9F9F9;
+  --color4:#CDF0EA;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: rgba(200,200,200,70%);
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+a{
+  color: var(--color2);
+  text-decoration: none;
+  transition:color 1s;
+}
+
+a:hover{
+  color: var(--color5);
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.MENU{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width:15vw;
+  
+}
+.MENU h2{
+  margin: .4em; 
+}
+.CONTENEDOR,main{
+  border: 3px var(--color4);
+  border-radius: 4px;
+  background-color: var(--color3);
+  padding: 1em;
+  width: 85vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  
+}
+.TABLA, table{
+  background: var(--color1);
+  border: 2px black solid;
+  border-radius: 4px;
+  padding: .5em;
+  overflow: auto;
+}
+.TABLA td,tabla td{
+  text-align: center;
+}
+tr:nth-child(even) 
+{
+  background-color: var(--color4);
+}

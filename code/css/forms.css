@@ -1,0 +1,63 @@
+.FORMULARIO,form{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
+  width: 40em;
+  padding: 2em;
+  
+}
+.FORMULARIO__parte,fieldset{
+  padding: 1em;
+  width: 40em;
+  border:none;
+  display: flex;
+  flex-direction: column;
+}
+.FORMULARIO__legend,legend{
+  text-decoration: underline;
+  font-size: 1.3em;
+}
+.FORMULARIO__label,label{
+  margin: .3em 0;
+  font-size: 1.1em;
+}
+
+.FORMULARIO__input, .FORMULARIO__select, input,select{
+  width: 60%;
+  padding: .7em;
+  border: none;
+  margin: 1em;
+  border-radius: 4px;
+  border-bottom: 2px solid var(--color2)
+}
+.FORMULARIO__submit{
+border: none;
+border-radius: 4px;
+padding: 1em;
+width: 60%;
+margin-top:.5em;
+background-color: var(--color4);
+transition: background-color 2s;
+cursor: pointer;
+align-self: center
+}
+.FORMULARIO__submit:hover{
+background-color: var(--color2);
+
+}
+.BOTON{
+  margin: 1rem;
+  padding: 1em;
+  align-self: center;
+  text-align: center;
+  background-color: var(--color4);
+  color: black;
+  
+}
+.FORMULARIO__section,section{
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+
+}
